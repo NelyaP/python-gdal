@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+drf-spectacular = "*"
+djangorestframework-simplejwt = "*"
+requests = "*"
+celery = "*"
+redis = "*"
+django-celery-beat = "*"
+django-celery-results = "*"
+django-cors-headers = "*"
+django-prometheus = "*"
+pysendpulse = "*"
+django-colorfield = "*"
+jenkspy = "*"
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
